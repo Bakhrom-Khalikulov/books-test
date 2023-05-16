@@ -14,18 +14,56 @@
         <div class="container">
             <div class="row">
                 <h1 class="text-danger text-center my-5">
-                    100 Best Books of All The Time
+                    Kitobsevar Majnun Kutubxonasi
                 </h1>
             </div>
+
+            <div class="row js-books__list">
+
+            </div>
+
+
         </div>
 
     </section>
+
+
+    <template class="js-book__template">
+
+        <div class="col-3 mb-3">
+            <div class="book__box h-100 p-4 d-flex flex-column justify-content-between text-bg-light rounded">
+                <img class="js-book__img mx-auto d-block img-fluid mb-3" src="https://picsum.photos/300" alt="">
+
+                <h3 class="js-book__title mb-3">
+                    Lorem, ipsum dolor.
+                </h3>
+
+                <h5 class="js-book__author mb-3">
+                    Chinua Achebe
+                </h5>
+
+                <h6 class="js-book__year mb-3">
+                    1958
+                </h6>
+
+                <button 
+                    class="js-book__btn btn btn-primary w-100"
+                    type="button">
+                    Sotib Olish!
+                </button>
+
+            </div>
+
+        </div>
+
+    </template>
 
 
 
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/books.js"></script>
     <script src="./js/main.js"></script> 
 </body>
 </html>
